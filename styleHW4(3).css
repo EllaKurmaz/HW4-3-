@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box ;
+}
+
+*,
+*::before,
+*::after { 
+    box-sizing: inherit;
+}
+
+#wrapper {
+   position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav {
+position: relative;
+ width: 250px; 
+background: grey;
+left: -220px;
+min-height: 100vh;
+}
+
+.nav:hover {
+    transition: all .5s ease-in ;
+   left: 0; 
+   width: 250px;
+}
+
+.list {
+    list-style: none;
+
+}
+
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
